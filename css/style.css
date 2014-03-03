@@ -1,0 +1,108 @@
+html {
+	width: 100%;
+	height: 100%;	
+}
+body {
+	padding: 0;
+	margin: 0;	
+
+	font-size: 30px;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background: #f2f2f2;
+}
+
+.hr {
+	width: 100%;
+	height: 2px;
+	margin-top: 20px;
+	background: #cecece;
+}
+
+
+.page {
+	margin: auto;
+	width: 400px;
+}
+/*INPUT*/
+.input {
+	margin: 20px auto;
+	width: 400px;
+	height: 30px;
+}
+
+.input input {
+	width: 100%;
+	height: 40px;
+	/*padding: 0 0 0 20px;*/
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.placeholder {
+	margin: -40px 0 0 20px;
+	font-size: 20px;
+}
+/*/INPUT*/
+
+/*button*/
+.button {
+
+}
+
+.button button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #47A6CA;
+	color: #fdfdfd;
+	font-size: 17px;
+	-webkit-transition: background-color .5s;
+	   -moz-transition: background-color .5s;
+	     -o-transition: background-color .5s;
+	        transition: background-color .5s;
+}
+
+.button button:hover {
+	background: #53B0D3;
+}
+
+button.you {
+	margin-top: 5px;
+	background: #cecece;
+	color: #000;
+}
+/*/button*/
+
+
+
+/*chat*/
+.chat {
+	background: #fdfdfd;
+	padding: 10px;
+	font-size: 18px;
+	height: 300px;
+	overflow: scroll;
+}
+.chat__you, .chat__me {
+	width: 100%;
+}
+.chat__me {
+	text-align: left;
+}
+.chat__you {
+	text-align: right;
+}
+
+.chat span {
+	display: block;
+	text-align: center;
+	width: 100%;
+	opacity: 0.5;
+	font-size: 15px;
+}
+/*/chat*/
